@@ -1,0 +1,29 @@
+.app {
+  display: block;
+  margin: 0 auto;
+  min-height: 700px;
+  width: 50vw;
+  padding: 3rem;
+  background-color: antiquewhite;
+}
+
+
+
+.title {
+  text-align: center;
+}
+
+ul {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.length {
+  text-align: center;
+}
+
+
+
+
+

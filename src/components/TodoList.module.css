@@ -1,0 +1,52 @@
+.list {
+    margin: 0 auto;
+    list-style-type: none;
+    background: rgb(249, 246, 246);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.title_wrapper {
+    margin: 0 auto;
+    width: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.descr_completed {
+    text-decoration: line-through;
+}
+
+.list_completed {
+    background: rgb(95, 207, 72);
+    padding: 20px;
+    border-radius: 30px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.edit {
+    margin-left: 0;
+}
+
+.upload {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+}
+
+.url {
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0f7afc;
+    border-bottom-color: rgba(15, 122, 252, 0.2); 
+}

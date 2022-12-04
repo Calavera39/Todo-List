@@ -1,0 +1,38 @@
+form {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .input {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 2rem;
+    width: 95%;
+    padding: 3px 7px 3px 7px;
+    border: none;
+  }
+  
+  .mainbutton {
+    color: white;
+    position: absolute;
+    right: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: blue;
+  }
+  
+  .mainbutton:hover {
+    transform: scale(1.2);
+    transition: all 200ms;
+  }
+
+@media (max-width: 500px) {
+  form {
+    width: 90%;
+  }
+}
