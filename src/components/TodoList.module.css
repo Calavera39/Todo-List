@@ -8,6 +8,8 @@
     width: 90%;
 }
 
+
+
 .title_wrapper {
     margin: 0 auto;
     width: 100px;
@@ -50,3 +52,40 @@
     color: #0f7afc;
     border-bottom-color: rgba(15, 122, 252, 0.2); 
 }
+
+@media (max-width: 500px) {
+    .list {
+        min-height: 300px;
+    }
+    .title_wrapper {
+        width: 150px;
+        font-size: 20px;
+        align-items: center;
+    }
+    input[type=checkbox] {
+        width: 30px;
+        height: 30px;
+    }
+    input[type=file] {
+        font-size: 13px;
+    }
+    p {
+        font-size: 29px;
+    }
+    button {
+        font-size: 20px;
+    }
+    .edit {
+        font-size: 20px;
+    }
+    .buttons {
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    a {
+        font-size: 20px;
+    }
+    form {
+        margin: 1px;
+    }
+  }

@@ -1,5 +1,5 @@
 form {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -32,7 +32,14 @@ form {
   }
 
 @media (max-width: 500px) {
-  form {
-    width: 90%;
+ 
+  .input {
+
+    height: 3rem;
+   
+    font-size: 20px;
+  }
+  .mainbutton {
+    width: 70px;
   }
 }
